@@ -1,0 +1,10 @@
+
+POSTMAN
+ URL: http://localhost:8080/Tracker/authenticate
+ METHOD: POST
+ APPLICATION/JSON: username =jerico password = 123
+ 
+ 
+ URL: http://localhost:8080/Tracker/user
+ METHOD: GET
+ HEADERS: Authorization Bearer <token>

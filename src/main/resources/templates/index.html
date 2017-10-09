@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4"
+      ng-app="trackerApp"
+     >
+<head>
+    <meta charset="UTF-8"/>
+	
+    <title>Project 40 | Personiv</title>
+	<base href="/Tracker/"></base>
+</head>
+<body >
+	<ui-view></ui-view>
+	
+	  <!--Angular app scripts  -->
+    <script src="/Tracker/node_modules/angular/angular.js"></script>
+    <script src="/Tracker/node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="/Tracker/app/ng/app.js"></script>
+    <script src="/Tracker/app/ng/controllers/HomeController.js"></script>
+    <script src="/Tracker/app/ng/controllers/LoginController.js"></script>
+    <script src="/Tracker/app/ng/services/HomeService.js"></script>
+    <script src="/Tracker/app/ng/services/LoginService.js"></script>
+  
+</body>
+</html>
